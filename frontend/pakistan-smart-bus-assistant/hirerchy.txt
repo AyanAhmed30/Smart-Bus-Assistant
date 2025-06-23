@@ -1,0 +1,52 @@
+pakistan-smart-bus-assistant/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Auth/
+│   │   ├── RouteSearch/
+│   │   ├── CapacityStatus/
+│   │   ├── FareDisplay/
+│   │   ├── Notifications/
+│   │   ├── Complaints/
+│   │   ├── UserPanel/
+│   │   ├── AdminPanel/
+│   │   ├── BusManagement/
+│   │   ├── ScheduleManagement/
+│   │   └── Common/
+│   ├── pages/
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── AdminDashboard.jsx
+│   │   └── NotFound.jsx
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── auth.js
+│   │   ├── bus.js
+│   │   ├── route.js
+│   │   ├── schedule.js
+│   │   ├── fare.js
+│   │   ├── notification.js
+│   │   ├── complaint.js
+│   │   └── user.js
+│   ├── contexts/
+│   │   ├── AuthContext.js
+│   │   └── NotificationContext.js
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   └── useFetch.js
+│   ├── utils/
+│   │   ├── helpers.js
+│   │   └── constants.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── routes.js
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+├── README.md
+└── .gitignore

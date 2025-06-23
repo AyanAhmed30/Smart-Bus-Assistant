@@ -1,0 +1,4 @@
+Email: admin@gmail.com
+Name: admin
+Phone: 03102935352
+Password: admin123

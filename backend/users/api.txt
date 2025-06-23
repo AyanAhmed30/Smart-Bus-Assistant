@@ -1,0 +1,5 @@
+Method	Endpoint	Access	Description
+POST	/register/	Public	Register as normal user
+POST	/login/	Public	Get JWT tokens
+GET	/profile/	Auth	View logged-in user details
+POST	/admin/...	Admin Only	Future: Add buses, routes, etc.

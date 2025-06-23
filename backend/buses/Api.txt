@@ -1,0 +1,8 @@
+| Action           | Method | URL                                                                      | Auth Required | Description            |
+| ---------------- | ------ | ------------------------------------------------------------------------ | ------------- | ---------------------- |
+| Get All Buses    | GET    | [http://127.0.0.1:8000/api/buses/](http://127.0.0.1:8000/api/buses/)     | ❌ No          | List all buses         |
+| Create New Bus   | POST   | [http://127.0.0.1:8000/api/buses/](http://127.0.0.1:8000/api/buses/)     | ✅ Admin       | Add new bus            |
+| Get Bus by ID    | GET    | [http://127.0.0.1:8000/api/buses/1/](http://127.0.0.1:8000/api/buses/1/) | ❌ No          | Get single bus details |
+| Update Bus by ID | PUT    | [http://127.0.0.1:8000/api/buses/1/](http://127.0.0.1:8000/api/buses/1/) | ✅ Admin       | Full update of bus     |
+| Partial Update   | PATCH  | [http://127.0.0.1:8000/api/buses/1/](http://127.0.0.1:8000/api/buses/1/) | ✅ Admin       | Partial update of bus  |
+| Delete Bus       | DELETE | [http://127.0.0.1:8000/api/buses/1/](http://127.0.0.1:8000/api/buses/1/) | ✅ Admin       | Delete a bus           |

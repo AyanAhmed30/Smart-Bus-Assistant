@@ -1,0 +1,8 @@
+| Action              | Endpoint           | Method | Auth Required | Description             |
+| ------------------- | ------------------ | ------ | ------------- | ----------------------- |
+| Get All Fares       | `/api/fares/`      | GET    | ❌ No          | List all fare records   |
+| Get Single Fare     | `/api/fares/<id>/` | GET    | ❌ No          | Retrieve fare by ID     |
+| Create Fare         | `/api/fares/`      | POST   | ✅ Admin Only  | Add a new fare          |
+| Update Fare         | `/api/fares/<id>/` | PUT    | ✅ Admin Only  | Fully update a fare     |
+| Partial Update Fare | `/api/fares/<id>/` | PATCH  | ✅ Admin Only  | Partially update a fare |
+| Delete Fare         | `/api/fares/<id>/` | DELETE | ✅ Admin Only  | Remove a fare           |

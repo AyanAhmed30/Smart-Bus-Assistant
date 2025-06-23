@@ -1,0 +1,7 @@
+| Method | Endpoint         | Description      | Auth  |
+| ------ | ---------------- | ---------------- | ----- |
+| GET    | `/api/routes/`   | List all routes  | No    |
+| GET    | `/api/routes/1/` | Get route by ID  | No    |
+| POST   | `/api/routes/`   | Create new route | Admin |
+| PUT    | `/api/routes/1/` | Update route     | Admin |
+| DELETE | `/api/routes/1/` | Delete route     | Admin |
